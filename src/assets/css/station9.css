@@ -1,0 +1,64 @@
+/* 共通のスタイル */
+body {
+  background-color: #c4c4c4;
+}
+
+.header {
+  background-color: #ffffff;
+}
+
+.footer {
+  background-color: #ffffff;
+}
+
+/* カード全体のスタイル */
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px; /* カード間のスペース */
+}
+
+.card {
+  background-color: #fff;
+  padding: 16px; /* カードの内側の余白 */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 200px; /* カードの最小幅 */
+  flex: 1 0 200px; /* カードの伸縮設定 */
+}
+
+/* タイトルのスタイル */
+.card__title {
+  color: #282828;
+  font-size: 14px;
+}
+
+/* 説明のスタイル */
+.card__description {
+  color: #282828;
+  font-size: 12px;
+}
+
+/* タブレット向けスタイル */
+@media (max-width: 768px) {
+  .card__title {
+    font-size: 12px; /* タイトルの文字を小さくする */
+  }
+  .card__description {
+    font-size: 10px; /* 説明の文字を小さくする */
+  }
+}
+
+/* スマートフォン向けスタイル */
+@media (max-width: 320px) {
+  .card__title {
+    font-size: 10px; /* タイトルの文字をさらに小さくする */
+  }
+  .card__description {
+    display: none; /* 説明を非表示にする */
+  }
+}
