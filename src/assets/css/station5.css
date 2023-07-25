@@ -1,0 +1,54 @@
+/* station4.css */
+
+/* ヘッダーのスタイル */
+.header {
+  background-color: #ffffff; /* 背景色 */
+  padding: 16px; /* ヘッダーの内側の余白 */
+}
+
+/* ヘッダータイトルのスタイル */
+.header__title {
+  color: #282828;
+  font-size: 24px;
+}
+
+/* カード全体のスタイル */
+.card {
+  background-color: #f0f0f0;
+  padding: 16px; /* カードの内側の余白 */
+}
+
+/* 画像のスタイル */
+.card__img-top {
+  width: 288px; /* 横幅 */
+  height: 182px; /* 縦幅 */
+  margin-bottom: 8px; /* 画像の下の余白 */
+}
+
+/* タイトルのスタイル */
+.card__title {
+  color: #282828;
+  font-size: 14px;
+}
+
+/* 説明のスタイル */
+.card__description {
+  color: #282828;
+  font-size: 12px;
+}
+
+/* フッターのスタイル */
+.footer {
+  background-color: #ffffff; /* 背景色 */
+  padding: 16px; /* フッターの内側の余白 */
+  position: absolute; /* フッターを画面の下部に固定 */
+  bottom: 0; /* フッターの位置を下部に設定 */
+  width: 100%; /* フッターの幅を100%に設定 */
+}
+
+/* フッターテキストのスタイル */
+.footer__text {
+  color: #282828;
+  font-size: 12px;
+  text-align: center; /* テキストを中央寄せに設定 */
+}
