@@ -1,0 +1,26 @@
+/* station3.css */
+
+/* カード全体のスタイル */
+.card {
+  background-color: #fff;
+  padding: 16px; /* カードの内側の余白 */
+}
+
+/* 画像のスタイル */
+.card__img-top {
+  width: 288px; /* 横幅 */
+  height: 182px; /* 縦幅 */
+  margin-bottom: 8px; /* 画像の下の余白 */
+}
+
+/* タイトルのスタイル */
+.card__title {
+  color: #282828;
+  font-size: 14px;
+}
+
+/* 説明のスタイル */
+.card__description {
+  color: #282828;
+  font-size: 12px;
+}
